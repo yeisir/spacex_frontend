@@ -18,18 +18,18 @@ SpaceX Frontend is a React-based web application that interacts with the SpaceX 
 
 2. Clone the repository:
 
-    ´´´bash
+   ```bash
     git clone https://github.com/yeisir/spacex_frontend.git
     cd spacex_frontend
 
-3. Install dependencies:
+4. Install dependencies:
 
-     ´´´bash
+   ```bash
     npm install
 
 ## 🚀 Usage
 
 To run the app locally, execute:
 
-    ´´´bash
+   ```bash
     npm start
