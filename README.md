@@ -1,8 +1,8 @@
-#Spacex FrontEnd
+# Spacex FrontEnd
 
 SpaceX Frontend is a React-based web application that interacts with the SpaceX Backend. It fetches and displays launch data stored in a DynamoDB database, providing a user-friendly interface to explore success, failed and upcoming launches.
 
-##🌟 Features
+## 🌟 Features
 
 -📊 Display SpaceX launches details (success, failed and upcoming).
 
@@ -12,7 +12,7 @@ SpaceX Frontend is a React-based web application that interacts with the SpaceX 
 
 -📱 Responsive design for desktop and mobile views.
 
-##📦 Installation
+## 📦 Installation
 
 1. Ensure you have Node.js installed on your system.
 
@@ -27,7 +27,7 @@ SpaceX Frontend is a React-based web application that interacts with the SpaceX 
      ´´´bash
     npm install
 
-##🚀 Usage
+## 🚀 Usage
 
 To run the app locally, execute:
 
