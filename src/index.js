@@ -1,17 +1,22 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom/client'; 
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Dashboard from './components/Dashboard';
+import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// Dark mode
+const theme = createTheme({
+  palette: {
+    mode: 'dark', 
+  },
+});
+
+const root = ReactDOM.createRoot(document.getElementById('root')); // Usando createRoot en lugar de render
 root.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider theme={theme}>  {/* Aplicar el tema oscuro globalmente */}
+      <CssBaseline /> {/* Aplica los estilos básicos del tema */}
+      <Dashboard />
+    </ThemeProvider>
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
